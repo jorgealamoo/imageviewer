@@ -14,7 +14,7 @@ public class MainFrame extends JFrame {
     public MainFrame() {
         this.commands = new HashMap<>();
         setTitle("Image Viewer");
-        setSize(Toolkit.getDefaultToolkit().getScreenSize());
+        setSize(1000, 800);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
